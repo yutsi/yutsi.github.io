@@ -1,11 +1,13 @@
 navbar_entries:
+  - title: Projects
+    url: home
   - title: skills
-    url: skills
-  - title: about
+    url: Skills
+  - title: About
     url: about
-  - title: blog
+  - title: Blog
     url: https://yut.si/
-  - title: contact
+  - title: Contact
     url: https://yut.si/contact/
 
 project_entries:
