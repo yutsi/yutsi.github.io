@@ -1,8 +1,8 @@
 navbar_entries:
   - title: Projects
     url: home
-  - title: skills
-    url: Skills
+  - title: Skills
+    url: skills
   - title: About
     url: about
   - title: Blog
