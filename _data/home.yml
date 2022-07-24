@@ -10,30 +10,24 @@ navbar_entries:
 
 project_entries:
   - title: aniComp
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    url: https://yut.si/aniComp
+    desc: Uses AniList API to compare the anime/manga lists of two users. Sorts comparison list by similarity of scores.
+    highlight: React, GraphQL, Bootstrap, Jest
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: Phonebook
+    url: https://yut.si/phonebook
+    desc: Allows user to store and search contacts with a name and phone number.
+    highlight: React, Node.js, Express, MongoDB
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: DubAlert
+    url: https://github.com/yutsi/DubAlert
+    desc: Sends email alert when a specified anime receives an English dub.
+    highlight: Python, Beautiful Soup
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: SM OGG Metadata Fixer
+    url: https://github.com/yutsi/SM-OGG-Metadata-Fixer
+    desc: Replace Artist/Title tags in OGG files with those found in associated StepMania (.sm) files.
+    highlight: Python, Mutagen, StepMania
 
 old_project_entries:
   - title: Soopr
