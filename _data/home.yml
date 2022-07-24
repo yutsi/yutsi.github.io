@@ -27,7 +27,7 @@ project_entries:
   - title: SM OGG Metadata Fixer
     url: https://github.com/yutsi/SM-OGG-Metadata-Fixer
     desc: Replace Artist/Title tags in OGG files with those found in associated StepMania (.sm) files.
-    highlight: Python, Mutagen, StepMania
+    highlight: Python, Mutagen
 
 old_project_entries:
   - title: Soopr
@@ -38,6 +38,8 @@ old_project_entries:
 footer_entries:
   - title: GitHub
     url: https://github.com/yutsi
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/wyattlucas/
 
 misc_entries:
   - title: this is an example vertical list
