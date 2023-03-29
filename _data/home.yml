@@ -12,12 +12,12 @@ navbar_entries:
 
 project_entries:
   - title: aniComp
-    url: https://yut.si/aniComp
+    url: https://github.com/yutsi/aniComp
     desc: Uses AniList API to compare the anime/manga lists of two users. Sorts comparison list by similarity of scores.
     highlight: React, GraphQL, Bootstrap, Jest
 
   - title: Phonebook
-    url: https://yut.si/phonebook
+    url: https://github.com/yutsi/phonebook-webapp
     desc: Allows user to store and search contacts with a name and phone number.
     highlight: React, Node.js, Express, MongoDB
 
@@ -32,9 +32,9 @@ project_entries:
     highlight: Python, Mutagen
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+  - title: Example
+    url: https://www.example.com
+    desc: Example
     highlight: NEW
 
 footer_entries:
