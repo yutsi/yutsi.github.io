@@ -17,3 +17,10 @@ layout: default
     <li><b>Databases</b>: PostgreSQL, SQL Server, SQLAlchemy, MongoDB, GraphQL</li>
   </ul>
 <span>I develop web applications using SPA and SSR frameworks. These UIs are responsive, accessible, and SEO-friendly. I have integrated UIs with REST and GraphQL APIs.</span>
+
+{% if site.theme_config.show_footer == true %}
+  <footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+  </footer>
+{% endif %}

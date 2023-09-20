@@ -1,14 +1,10 @@
 navbar_entries:
   - title: Projects
-    url: /
+    url: projects
   - title: Skills
     url: skills
   - title: About
-    url: about
-  - title: Blog
-    url: https://yut.si/
-  - title: Contact
-    url: https://yut.si/contact/
+    url: /
 
 project_entries:
   - title: aniComp
