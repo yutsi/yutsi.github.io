@@ -1,10 +1,10 @@
 navbar_entries:
+  - title: About
+    url: /
   - title: Projects
     url: projects
   - title: Skills
     url: skills
-  - title: About
-    url: /
 
 project_entries:
   - title: aniComp
