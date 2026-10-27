@@ -9,7 +9,7 @@ permalink: /:slug
 favicon: "./logo.png" # relative path to site's favicon
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
+remote_theme: abhinavs/moonwalk@234eb863ce4efe73b1b96b5ea01ec1f9a430c485
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
