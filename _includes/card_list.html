@@ -16,6 +16,10 @@
           {{ item.desc }}
         </p>
       {% endif %}
+      {% assign url_prefix = item.url | slice: 0, 19 %}
+      {% if url_prefix == "https://github.com/" %}
+        {% include github_link.html url=item.url title=item.title %}
+      {% endif %}
     </li>
 
   {% endfor %}

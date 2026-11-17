@@ -27,10 +27,7 @@ layout: default
       <p>{{ featured_project.desc | escape }}</p>
       <div class="featured-project-links">
         <a href="{{ featured_project.demo_url | escape }}">Try {{ featured_project.title | escape }}</a>
-        <a class="featured-project-github" href="{{ featured_project.url | escape }}" aria-label="{{ featured_project.title | escape }} on GitHub">
-          <img src="{{ '/assets/images/GitHub_Invertocat_Black.svg' | relative_url }}" alt="" class="github-icon-light">
-          <img src="{{ '/assets/images/GitHub_Invertocat_White.svg' | relative_url }}" alt="" class="github-icon-dark">
-        </a>
+        {% include github_link.html url=featured_project.url title=featured_project.title %}
       </div>
     </article>
   {% endif %}
