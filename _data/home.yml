@@ -6,6 +6,12 @@ navbar_entries:
   - title: Skills
     url: skills
 
+featured_project:
+  title: CratePending
+  url: https://github.com/yutsi/CratePending
+  desc: A music backlog for recommendations you want to get back to. Paste a note and review the releases, tracks, artists, and labels that an AI agent finds in MusicBrainz.
+  highlight: Built with agentic coding
+
 project_entries:
   - title: aniComp
     url: https://github.com/yutsi/aniComp

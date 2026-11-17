@@ -18,6 +18,16 @@ layout: default
 
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
+  {% if site.data.home.featured_project %}
+    {% assign featured_project = site.data.home.featured_project %}
+    <article class="featured-project">
+      <p class="featured-project-label">Latest project</p>
+      <h3>{{ featured_project.title | escape }}</h3>
+      <p>{{ featured_project.desc | escape }}</p>
+      <p><strong>{{ featured_project.highlight | escape }}</strong></p>
+      <a href="{{ featured_project.url | escape }}">View {{ featured_project.title | escape }} on GitHub</a>
+    </article>
+  {% endif %}
   {% include card_list.html collection=site.data.home.project_entries %}
 {% endif %}
 
