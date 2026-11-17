@@ -25,7 +25,10 @@ layout: default
       <div><mark>{{ featured_project.stack | escape }}</mark></div>
       <hr />
       <p>{{ featured_project.desc | escape }}</p>
-      <a href="{{ featured_project.url | escape }}">View {{ featured_project.title | escape }} on GitHub</a>
+      <div class="featured-project-links">
+        <a href="{{ featured_project.demo_url | escape }}">Try {{ featured_project.title | escape }}</a>
+        <a href="{{ featured_project.url | escape }}">View on GitHub</a>
+      </div>
     </article>
   {% endif %}
   {% include card_list.html collection=site.data.home.project_entries %}
