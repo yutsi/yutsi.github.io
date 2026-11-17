@@ -9,7 +9,7 @@ navbar_entries:
 featured_project:
   title: CratePending
   url: https://github.com/yutsi/CratePending
-  desc: A music backlog for recommendations you want to get back to. Paste a note and review the releases, tracks, artists, and labels that an AI agent finds in MusicBrainz.
+  desc: A music backlog web app for recommendations you want to get back to. Enter your recommendations in your own words, then review the releases, tracks, artists, and record labels an AI agent finds in MusicBrainz.
   highlight: Built with agentic coding
 
 project_entries:

@@ -21,7 +21,6 @@ layout: default
   {% if site.data.home.featured_project %}
     {% assign featured_project = site.data.home.featured_project %}
     <article class="featured-project">
-      <p class="featured-project-label">Latest project</p>
       <h3>{{ featured_project.title | escape }}</h3>
       <p>{{ featured_project.desc | escape }}</p>
       <p><strong>{{ featured_project.highlight | escape }}</strong></p>
