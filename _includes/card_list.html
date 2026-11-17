@@ -2,24 +2,25 @@
   {% for item in include.collection %}
 
     <li class="card">
-      <a class="header" href="{{ item.url }}">{{ item.title }}</a>
-      <div>
-        {% if item.highlight %}
-          <mark>{{ item.highlight }}</mark>
-        {% endif %}
-      </div>
+      <a href="{{ item.url }}">
+        <span class="header">
+          {{ item.title }}
 
-      <hr />
+        </span>
+        <div>
+          {% if item.highlight %}
+            <mark>{{ item.highlight }}</mark>
+          {% endif %}
+        </div>
 
-      {% if item.desc != false %}
+        <hr />
+
+        {% if item.desc != false %}
         <p class="body">
           {{ item.desc }}
         </p>
-      {% endif %}
-      {% assign url_prefix = item.url | slice: 0, 19 %}
-      {% if url_prefix == "https://github.com/" %}
-        {% include github_link.html url=item.url title=item.title %}
-      {% endif %}
+        {% endif %}
+      </a>
     </li>
 
   {% endfor %}
