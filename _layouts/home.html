@@ -24,6 +24,7 @@ layout: default
       <h3>{{ featured_project.title | escape }}</h3>
       <p>{{ featured_project.desc | escape }}</p>
       <p><strong>{{ featured_project.highlight | escape }}</strong></p>
+      <p>{{ featured_project.stack | escape }}</p>
       <a href="{{ featured_project.url | escape }}">View {{ featured_project.title | escape }} on GitHub</a>
     </article>
   {% endif %}

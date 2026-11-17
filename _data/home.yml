@@ -11,6 +11,7 @@ featured_project:
   url: https://github.com/yutsi/CratePending
   desc: A music backlog web app for recommendations you want to get back to. Enter your recommendations in your own words, then review the releases, tracks, artists, and record labels an AI agent finds in MusicBrainz.
   highlight: Built with agentic coding
+  stack: Next.js, React, TypeScript, C#, ASP.NET Core, PostgreSQL, Docker, GitHub Actions, Vitest, Playwright
 
 project_entries:
   - title: aniComp
