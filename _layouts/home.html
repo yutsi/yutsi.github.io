@@ -21,7 +21,7 @@ layout: default
   {% if site.data.home.featured_project %}
     {% assign featured_project = site.data.home.featured_project %}
     <article class="card featured-project">
-      <h3 class="header">{{ featured_project.title | escape }}</h3>
+      <h3 class="header"><a href="{{ featured_project.url | escape }}">{{ featured_project.title | escape }}</a></h3>
       <div><mark>{{ featured_project.stack | escape }}</mark></div>
       <hr />
       <p>{{ featured_project.desc | escape }}</p>
